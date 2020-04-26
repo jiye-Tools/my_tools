@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiyeyong/projects/t3/lib/hello.c
+hello.h
+/home/jiyeyong/projects/t3/lib/hello.h
+
+/home/jiyeyong/projects/t3/lib/hello.h
+stdio.h
+-
+
